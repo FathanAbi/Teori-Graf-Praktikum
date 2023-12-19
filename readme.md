@@ -1,10 +1,11 @@
-# Praktikum T GRAF
+# Praktikum Teori Graf
 
+## Teori Graf B
 ## Kelompok 4
 
 | Nama | NRP |
 | ----------- | ----------- |
-| Fathan Abhi Karami| 5025211156 |
+| Fathan Abi Karami| 5025211156 |
 | Heru Dwi Kurniawan | 5025211055 |
 | Muhammad Febriansyah | 5025211164 |
 
