@@ -17,7 +17,7 @@ Menggunakan segment tree untuk menyelesaiakan problem
 
 ![](./img/segment%20tree.jpg)
 
-Class segment tree beserta constructornya
+Pembuatan Class segment tree beserta konstructornya
 ```py
 class SegmentTree:
     # Init
@@ -29,11 +29,11 @@ class SegmentTree:
         self.tree = [0] * (2 * n)
 ```
 
-Method untuk mengupdate tree
+Method guna untuk mengupdate tree
 ```py
 # update Tree
     def update(self, index, value):
-        # adjust index
+        # penyesuaian index
         index += self.n
 
         # update value nya
@@ -45,7 +45,7 @@ Method untuk mengupdate tree
             self.tree[index] = max(self.tree[2 * index], self.tree[2 * index + 1])
 ```
 
-Method untuk query
+Method guna untuk query
 ```py
 # cari max value dari range [left, right]
     def query(self, left, right):
@@ -77,7 +77,7 @@ Method untuk query
         return result
 ```
 
-Fungsi untuk mencari longest increasing subsequence
+Fungsi guna untuk mencari longest increasing subsequence
 
 ```py
 def longest_increasing_subsequence(nums):
@@ -121,6 +121,7 @@ nums = [3,1,4,2,5]
 result = longest_increasing_subsequence(nums)
 print("Panjang LiS:", result)
 ```
+maka ketika dirun akan menghasilkan output 3, dengan logika urutan [1,2,5]
 
 
 # Praktikum 2
