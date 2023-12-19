@@ -1,5 +1,13 @@
 # Praktikum T GRAF
 
+## Kelompok 4
+
+| Nama | NRP |
+| ----------- | ----------- |
+| Fathan Abhi Karami| 5025211156 |
+| Heru Dwi Kurniawan | 5025211055 |
+| Muhammad Febriansyah | 5025211164 |
+
 # Praktikum 1
 Implemantasikan sebuah program untuk menyelesaikan permasalahan “Largest Monotonically Increasing Subsequence” (pada hal 3)
 
