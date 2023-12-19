@@ -1,4 +1,4 @@
-# Praktikum Teori Graf
+# Praktikum 1,2, dan 3 Teori Graf 
 
 ## Teori Graf B
 ## Kelompok 4
