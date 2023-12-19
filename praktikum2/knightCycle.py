@@ -6,7 +6,7 @@ class CurrentTile:
 		self.x = x
 		self.y = y
 
-# ukuran current_tile
+# ukuran board
 N = 8
 
 # moves knight

@@ -55,6 +55,8 @@ def longest_increasing_subsequence(nums):
 
     # map index : sorted num
     index_map = {num: i for i, num in enumerate(sorted(set(nums)))}
+    # print(nums)
+    # print(index_map[6])
     # print(index_map)
     # print(len(index_map))
 
@@ -84,7 +86,7 @@ def longest_increasing_subsequence(nums):
     return lis_length
 
 # Driver Code
-nums = [3,1,4,2,5]
+nums = [4,1,13,7,0,2,8,11,3] 
 result = longest_increasing_subsequence(nums)
 print("Panjang LiS:", result)
 
